@@ -62,14 +62,17 @@
       <!-- simple comment -->
     </pluginManagement>
   </build>
-  <distributionManagement>
-        <repository>
-  <id>maven-releases</id>
-  <url>http://15.207.82.70:8081/repository/maven-releases/</url>
+<distributionManagement>
+    <repository>
+        <id>maven-releases</id>
+        <name>Nexus Releases</name>
+        <url>http://16.170.110.86:8081/repository/maven-releases/</url>
     </repository>
-      <snapshotRepository>
-      <id>maven-snapshots</id>
-      <url>http://15.207.82.70:8081/repository/maven-snapshots/</url>
+
+    <snapshotRepository>
+        <id>maven-snapshots</id>
+        <name>Nexus Snapshots</name>
+        <url>http://16.170.110.86:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
-  </distributionManagement>
+</distributionManagement>
 </project>
